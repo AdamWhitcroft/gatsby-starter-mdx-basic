@@ -18,12 +18,15 @@ const PostPage = ({ data }) => {
 
 export const query = graphql`
   query($slug: String) {
-    mdx(fields: { slug: { eq: $slug } }) {
+    mdx(
+      fields: { slug: { eq: $slug } }
+      ) {
       id
       body
       frontmatter {
         title
         date(formatString: "MMMM Do, YYYY")
+        tags
       }
     }
   }
