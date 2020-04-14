@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => (
   <footer role="contentinfo">
-    <p>Edit the footer in <code>/src/components/footer.js</code>.</p>
+    <p>Footer - <code>/src/components/footer.js</code>.</p>
   </footer>
 )
 

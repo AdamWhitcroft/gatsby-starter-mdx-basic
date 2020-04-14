@@ -8,6 +8,7 @@ const PostPage = ({ data }) => {
   return (
     <Layout>
       <h1>{ post.frontmatter.title }</h1>
+      <p>This is the post template. Edit it in <code>src/pages/post.js</code>.</p>
       <MDXRenderer>{ post.body }</MDXRenderer>
     </Layout>
   )
