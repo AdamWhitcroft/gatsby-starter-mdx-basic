@@ -1,27 +1,28 @@
-# Gatsby Starter MDX Basic
+# Gatsby Starter MDX Less-Basic
 
-View this starter [live on Netlify](https://gatsby-starter-mdx-basic.netlify.com/)
+My version of the [Gatsby Starter MDX Basic](https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic), but with a few more features added:
 
-This starter build MDX support into the
-[gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default). Its
-README also applies here.
+- ✅ Added `gatsby-plugin-sass` for Sass support out of the box.
+- ✅ Added support for programmatically generating posts from the `posts` folder.
+- ✅ Added support page slugs.
 
-1. Create a new Gatsby site using this starter
+## Installation
 
-```sh
-gatsby new my-site https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic
-```
-
-2. Install dependencies
+1. **Initialize** this starter with the Gatsby CLI
 
 ```sh
-yarn
+gatsby new my-site https://github.com/AdamWhitcroft/gatsby-starter-mdx-basic
 ```
 
-3. Run the develop script
+2. **Install** dependencies by changing directory
 
 ```sh
-yarn develop
+cd gatsby-starter-mdx-basic
+npm install
 ```
 
-4. Edit Page 2 in `src/pages/page-2.mdx`
+3. **Run** the dev server
+
+```sh
+gatsby develop
+```
