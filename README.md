@@ -26,3 +26,17 @@ npm install
 ```sh
 gatsby develop
 ```
+
+## Personalization
+
+There are a few fields to edit in `gatsby-config.js` to personlize this site to you. At the top of the file, you'll see this:
+
+```
+siteMetadata: {
+  title: 'Gatsby Basic MDX Starter',
+  description: 'A basic Gatsby starter powered by MDX.',
+  author: '@adamwhitcroft',
+},
+```
+
+Set the values for `title`, `description` and `author` to whatever you'd like to be rendered in your site meta tags.
