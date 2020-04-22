@@ -10,6 +10,10 @@ const links = [
     to: '/about',
     label: 'About'
   },
+  {
+    to: '/tags',
+    label: 'Tags'
+  },
 ]
 
 const Navigation = () => (
